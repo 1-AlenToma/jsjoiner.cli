@@ -1,0 +1,23 @@
+{
+  "name": "jsjoiner.cli",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./bin/index.js",
+  "type": "module",
+  "bin": {
+    "jsjoiner": "./bin/index.js"
+  },
+  "scripts": {
+    "run": "npm install -g"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@node-minify/clean-css": "^8.0.6",
+    "@node-minify/core": "^8.0.6",
+    "@node-minify/html-minifier": "^8.0.6",
+    "@node-minify/uglify-js": "^8.0.6",
+    "commander": "^12.0.0"
+  }
+}
