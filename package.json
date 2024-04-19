@@ -1,17 +1,29 @@
 {
   "name": "jsjoiner.cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "This lib solves issues of adding `html`, js and css files as assets to project. It will join those files and add it to a single index.js file that could be added later on for Webview or any other use.",
   "exports": "./bin/index.js",
   "type": "module",
   "bin": {
-    "jsjoiner": "./bin/index.js"
+    "jsjoiner": "bin/index.js"
   },
+  "repository": "https://github.com/1-AlenToma/https://github.com/1-AlenToma/jsjoiner.cli",
+  "author": "Alen Toma <alen.toma@gmail.com> (https://github.com/1-AlenToma)",
+  "bugs": {
+    "url": "https://github.com/1-AlenToma/jsjoiner.cli/issues"
+  },
+  "homepage": "https://github.com/1-AlenToma/jsjoiner.cli#readme",
   "scripts": {
     "run": "npm install -g"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "jsjoin",
+    "html join",
+    "react-native",
+    "webview",
+    "assets"
+  ],
+  "author": "Alen Toma",
   "license": "MIT",
   "dependencies": {
     "@node-minify/clean-css": "^8.0.6",
